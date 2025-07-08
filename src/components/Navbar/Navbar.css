@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header {
+  width: 100%;
+  background: #e2d3a3;
+}
+
+.topbar {
+  padding: 10px 20px;
+  background-color: #f0f0f0;
+  text-align: right;
+}
+
+.topbar .container {
+  display: flex;
+  justify-content: flex-end;
+  max-width: 100%;
+}
+
+.topbar ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.topbar li {
+  margin-left: 20px;
+}
+
+.topbar a {
+  color: #402f2f;
+  font-weight: 500;
+}
+
+.topbar, .header {
+  width: 100%;
+}
+
+.header-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 10%;
+}
+
+.olympics-icon {
+  padding-right: 10px;
+  margin-bottom: -20px;
+}
+
+.logo {
+  font-size: 24px;
+  color: #063969;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.navbar {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+
+.navbar a {
+  color: #402f2f;
+  font-weight: 500;
+  font-size: 16px;
+  margin: 0 15px;
+}
+
+.navbar a:hover {
+  color: #009ce0;
+}
+
+.navbar button {
+  padding: 12px 30px;
+  margin: 0;
+  background-color: rgb(0, 155, 250);
+}
+
+

@@ -1,0 +1,103 @@
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.main-content {
+  flex: 1;
+}
+
+.bg-paris {
+  background-image: url('https://img.cancaonova.com/cnimages/canais/uploads/sites/11/2024/08/rebeca-andrade-final-geral-individual-feminina-ginastica-artistica-brasil-olimpiadas-paris-2024-_-foto-PA-Images-via-Reuters-Connect.png');
+  background-size: cover;
+  background-position: 30% 42%;
+  background-repeat: no-repeat;
+  padding: 90px 0;
+  color: white;
+  text-align: center;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.text {
+  padding: 20px;
+}
+
+.text h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+  color: white;
+}
+
+.text p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 1);
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  color: white;
+}
+
+.button .btn {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.button .btn.primary {
+  background-color: #007bff;
+}
+
+.button .btn:hover {
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.card-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 85px 0;
+}
+
+.card {
+  background-color: #ffd700;
+  color: #003366;
+  padding: 20px 40px;
+  border: none;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.card:hover {
+  background-color: #e5c100;
+  transform: scale(1.1);
+}
+
+.divider {
+  width: 80%;
+  height: 1px;
+  background: linear-gradient(to right, #21cb11, #2575fc);
+  margin: 40px auto;
+  border-radius: 5px;
+}

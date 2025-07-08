@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Poppins:wght@400;500;700&display=swap');
+
+.criar-conta-tela {
+  width: 100%;
+  background-image: url('/src/assets/paris-bg.jpg');
+  background-size: cover;
+  background-position: 30% 42%;
+  background-repeat: no-repeat;
+  padding: 60px 0;
+  font-family: "Poppins", sans-serif;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  padding-right: 200px;
+}
+
+.icone {
+  width: 150px; 
+  height: auto;
+  margin-right: 15px;
+}
+
+.logo-text {
+  font-size: 48px;
+  color: white;
+  margin: 0;
+  text-shadow: 
+    2px 2px 0 #0000006e,
+    -1px -1px 0  #0000006e,
+    1px -1px 0  #0000006e,
+    -1px 1px 0  #0000006e;
+}
+
+.criar-conta-container {
+  background: rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+
+}
+
+.criar-conta-container h1 {
+  font-size: 48px;
+  color: white;
+  margin: 0;
+  text-shadow: 
+    2px 2px 0 #0000006e,
+    -1px -1px 0  #0000006e,
+    1px -1px 0  #0000006e,
+    -1px 1px 0  #0000006e;
+}
+
+.criar-conta-container input {
+  width: calc(100%);
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+
+.criar-conta-container button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.criar-conta-container button:hover {
+  background-color: #0056b3;
+}
+
+.error {
+  color: red;
+  margin-top: 10px;
+}
+
+.success {
+  color: green;
+  margin-top: 10px;
+}
