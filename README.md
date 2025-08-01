@@ -23,7 +23,7 @@ This project was developed for the Web Programming course at IFBA, aiming to bui
 - Styling Tools: CSS / Bootstrap
 
 
-### Telas
+### Pictures
 
 <img src="login.png" width="800"/>
 <img src="Home1-olimpiadas.png" width="800"/>
